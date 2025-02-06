@@ -1,3 +1,4 @@
+/* Estilos Globais */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +14,6 @@ body {
     justify-content: center;
 }
 
-
 body::before {
     background-image: url("img/code.png");
     background-repeat: no-repeat;
@@ -26,6 +26,7 @@ body::before {
     opacity: 0.4;
 }
 
+/* Estilos do Container */
 .container {
     width: 1200px;
     height: 600px;
@@ -40,6 +41,7 @@ body::before {
     position: relative;
 }
 
+/* Estilos do Conteúdo */
 .container__conteudo {
     display: flex;
     align-items: center;
@@ -61,6 +63,11 @@ body::before {
     font-weight: 700;
     border: none;
     margin-top: 16px;
+    transition: background 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.container__botao:hover {
+    background: #0f5bb5; /* Cor mais escura ao passar o mouse */
 }
 
 .container__texto {
@@ -71,6 +78,7 @@ body::before {
     color: #1875E8;
 }
 
+/* Estilos dos Títulos */
 h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 72px;
