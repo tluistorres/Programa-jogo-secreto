@@ -1,6 +1,6 @@
 # Jogo do Número Secreto
 
-![Capa do Jogo](bg.png)
+![Capa do Jogo](img/bg.png)
 
 Bem-vindo ao Jogo do Número Secreto! Este é um jogo simples desenvolvido em JavaScript onde o usuário tenta adivinhar um número aleatório gerado pelo computador.
 
@@ -12,13 +12,13 @@ O jogo funciona da seguinte maneira:
 - A cada palpite, o jogo informa se o número secreto é maior ou menor que o palpite.
 - O jogo continua até que o usuário adivinhe o número correto.
 
-![Fluxo do Jogo](trophy.jpg)
+![Fluxo do Jogo](img/trophy.png)
 
 ## Tecnologias Utilizadas
 
-- **JavaScript**: Para a lógica do jogo.
-- **HTML**: Para a interface do usuário.
-- **CSS**: Estilização do jogo.
+- JavaScript: Para a lógica do jogo.
+- HTML: Para a interface do usuário.
+- CSS: Estilização do jogo.
 
 ## Como Jogar
 
@@ -27,7 +27,7 @@ O jogo funciona da seguinte maneira:
 3. Siga as instruções que aparecem em forma de alertas e prompts.
 4. Tente adivinhar o número secreto!
 
-![Exemplo de Jogo](robot.jpg)
+![Exemplo de Jogo](img/robot.png)
 
 ## Requisitos
 
